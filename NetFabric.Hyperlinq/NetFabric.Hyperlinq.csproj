@@ -80,8 +80,20 @@
   <Import Project="..\NetFabric.Hyperlinq.Generator\build\NetFabric.Hyperlinq.Generator.props" />
   
   <ItemGroup>
+    <UpToDateCheck Remove="Aggregation\Count\Count.ArraySegment.cs" />
+    <UpToDateCheck Remove="Conversion\ToArray\ToArray.ArraySegment.cs" />
+    <UpToDateCheck Remove="Conversion\ToDictionary\ToDictionary.ArraySegment.cs" />
+    <UpToDateCheck Remove="Conversion\ToList\ToList.ArraySegment.cs" />
+    <UpToDateCheck Remove="Element\ElementAt\ElementAt.ArraySegment.cs" />
+    <UpToDateCheck Remove="Element\First\First.ArraySegment.cs" />
+    <UpToDateCheck Remove="Element\Single\Single.ArraySegment.cs" />
+    <UpToDateCheck Remove="Filtering\WhereAt\WhereAt.ArraySegment.cs" />
     <UpToDateCheck Remove="Filtering\WhereRefAt\WhereRefAt.Array.cs" />
+    <UpToDateCheck Remove="Filtering\WhereRefAt\WhereRefAt.ArraySegment.cs" />
     <UpToDateCheck Remove="Filtering\WhereRef\WhereRef.Array.cs" />
+    <UpToDateCheck Remove="Filtering\WhereRef\WhereRef.ArraySegment.cs" />
+    <UpToDateCheck Remove="Filtering\WhereSelect\WhereSelect.ArraySegment.cs" />
+    <UpToDateCheck Remove="Filtering\Where\Where.ArraySegment.cs" />
     <UpToDateCheck Remove="Quantifier\Contains\Contains.Enumerable.cs" />
   </ItemGroup>
 
